@@ -15,8 +15,7 @@ function App() {
     <>
       <div>
         <div className="container-fluid">
-          <h1>CAST FATCHING</h1>
-
+          <h1 className='text-center p-3 text-danger'>CAST FETCHING</h1>
           <div className="row g-4">
                 {actress.map((item) => (
                   <div className="col-3">
