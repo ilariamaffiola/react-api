@@ -8,7 +8,7 @@ function App() {
   };
   useEffect(() => {
     fetchActress();
-  }, [])
+  }, []);
   
 
   return (
@@ -28,10 +28,12 @@ function App() {
                       <p className='card-text'>{item.birth_year}</p>
                       <p className='card-text'>{item.nationality}</p>
                       <p className="card-text">{item.biography}</p>
+                      <p className='card-text'>{item.awards}</p>
                     </div>
                   </div>
                   </div>
                 ))}
+
               
           </div>
         </div>
